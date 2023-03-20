@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 10px 20px;
+  width: 1200px;
+  scroll-snap-align: center;
+}
+.navright {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.lists {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.contactUs {
+  background-color: #f733e7;
+  height: 35px;
+  width: 120px;
+  color: rgb(255, 255, 255);
+  font-style: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid white;
+  cursor: pointer;
+}
