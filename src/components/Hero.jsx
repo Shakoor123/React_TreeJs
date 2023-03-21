@@ -7,7 +7,14 @@ const Hero = () => {
     <div className="hero">
       <Navbar />
       <div className="heroBody">
-        <div className="heroLeft"> dddd</div>
+        <div className="heroLeft">
+          <span className="title">Full Stack Developer</span>
+          <span className="text">
+            ━ I design and code beautifully simple things,<br></br> and I love
+            what I do.
+          </span>
+          <button className="contactUs">Know More</button>
+        </div>
         <div className="heroRight">
           <img src={hero} alt="" className="heroImage" />
         </div>

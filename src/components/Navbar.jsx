@@ -8,7 +8,6 @@ const Navbar = () => {
         <ul className="lists">
           <li className="listItem">About</li>
           <li className="listItem">Projects</li>
-          <li className="listItem">sss</li>
           <li className="listItem">aaa</li>
         </ul>
         <button className="contactUs">Contact</button>
