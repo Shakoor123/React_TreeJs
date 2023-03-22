@@ -29,6 +29,7 @@
   cursor: pointer;
   color: transparent;
   -webkit-text-stroke: 1px white;
+  transition-duration: 2s;
 }
 .servicelistItem:hover {
   color: aqua;

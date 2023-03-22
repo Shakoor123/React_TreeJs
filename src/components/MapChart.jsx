@@ -1,7 +1,24 @@
 import React from "react";
+import {
+  ComposableMap,
+  Geographies,
+  Geography,
+  Annotation,
+} from "react-simple-maps";
 
-const MapChart = () => {
-  return <div>MapChart</div>;
-};
+const geoUrl =
+  "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json";
 
-export default MapChart;
+export default function MapChart() {
+  return (
+    <ComposableMap>
+      <Geographies geography={geoUrl}>
+        {({ geographies }) =>
+          geographies.map((geo) => (
+            <Geography key={geo.rsmKey} geography={geo} />
+          ))
+        }
+      </Geographies>
+    </ComposableMap>
+  );
+}
