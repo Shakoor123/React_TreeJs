@@ -7,19 +7,19 @@
   padding: 0 20px;
 }
 .serviceLeft {
-  flex: 1;
+  width: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 .serviceRight {
-  flex: 1;
-  height: 100%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .serviceLists {
-  list-style: none;
+  /* list-style: none; */
 }
 .servicelistItem {
   margin-top: 20px;
