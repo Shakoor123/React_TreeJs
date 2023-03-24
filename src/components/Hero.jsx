@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import hero from "../assets/hero.jpg";
+import hero from "../assets/hero1.png";
 import Navbar from "./Navbar";
 import { Canvas } from "@react-three/fiber";
 import { MeshDistortMaterial, OrbitControls, Sphere } from "@react-three/drei";
@@ -25,9 +25,9 @@ const Hero = () => {
             <directionalLight position={[3, 2, 1]} />
             <Sphere args={[1, 100, 200]} scale={2.4}>
               <MeshDistortMaterial
-                color="#1C3094"
+                color="#1d9591"
                 attach="material"
-                distort={0.5}
+                distort={0.4}
                 speed={2}
               />
             </Sphere>

@@ -8,7 +8,7 @@ const Development = () => {
       <Stage environment="city" intensity={1}>
         <Mac />
       </Stage>
-      <OrbitControls enableZoom={false} />
+      <OrbitControls enableZoom={false} autoRotate={true} />
     </Canvas>
   );
 };

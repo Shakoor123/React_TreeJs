@@ -16,12 +16,12 @@ const Cube = () => {
       <Canvas camera={{ fov: 25, position: [5, 5, 5] }}>
         <OrbitControls enableZoom={false} autoRotate={true} />
         <ambientLight intensity={1} />
-        <directionalLight position={[5, 3, 1]} />
+        <directionalLight position={[10, 5, 1]} />
         <mesh>
           <boxGeometry />
           <meshStandardMaterial>
             <RenderTexture attach="map">
-              <perspectiveCamera makeDefault position={[0, 0, 5]} />
+              <perspectiveCamera makeDefault position={[0, 0, 3]} />
               <color attach={"background"} args={["aqua"]} />
               <Text fontSize={1} color="black">
                 Designing

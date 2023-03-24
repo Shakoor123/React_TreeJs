@@ -1,14 +1,14 @@
 import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React from "react";
-import Tab from "./Tab";
+import Social from "./Social";
 const SocialMedia = () => {
   return (
     <Canvas>
       <Stage environment="city" intensity={1}>
-        <Tab />
+        <Social />
       </Stage>
-      <OrbitControls enableZoom={false} />
+      <OrbitControls enableZoom={false} autoRotate={true} />
     </Canvas>
   );
 };
