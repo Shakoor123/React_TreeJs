@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 0px 20px;
   width: 1200px;
 
   scroll-snap-align: center;
@@ -47,9 +46,29 @@
   color: azure;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(255, 243, 243);
+  padding: 0 20px;
 }
 .text {
   color: rgb(0, 255, 255);
   font-weight: 500;
   font-size: 23px;
+  padding: 0 20px;
+}
+@media only screen and (max-width: 450px) {
+  .hero {
+    width: 100vw;
+    height: auto;
+    scroll-snap-align: auto;
+  }
+  .heroBody {
+    display: flex;
+    flex-direction: column;
+  }
+  .heroLeft,
+  .heroRight {
+    width: 100%;
+  }
+  .heroImage {
+    width: 250px;
+  }
 }

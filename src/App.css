@@ -3,9 +3,9 @@
   background-image: linear-gradient(
     -45deg,
     rgb(12, 25, 100) 0%,
-    #1E1E1E 25%,
+    #1e1e1e 25%,
     rgb(42, 27, 98) 51%,
-    #1E1E1E 10%
+    #1e1e1e 70%
   );
   -webkit-animation: AnimateBG 20s ease infinite;
   animation: AnimateBG 20s ease infinite;
@@ -31,3 +31,13 @@
   50% {
     background-position: 100% 50%;
   }
+}
+@media only screen and (max-width: 450px) {
+  .App {
+    width: 100vw;
+  }
+  .container {
+    scroll-snap-align: none;
+    scroll-snap-align: auto;
+  }
+}

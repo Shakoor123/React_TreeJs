@@ -35,3 +35,11 @@
 .contactRight {
   flex: 1;
 }
+@media only screen and (max-width: 450px) {
+  .contact {
+    flex-direction: column;
+    padding: 50px 10px;
+    height: auto;
+    width: 100vw;
+  }
+}

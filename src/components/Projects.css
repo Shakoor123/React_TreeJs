@@ -3,8 +3,10 @@
   scroll-snap-align: center;
   width: 1200px;
   display: flex;
-  align-items: center;
+  align-items: start;
   padding: 0 20px;
+  flex-direction: column;
+  justify-content: center;
 }
 .projectBody {
   width: 100%;
@@ -56,4 +58,19 @@
 .overlay:hover {
   opacity: 0.7;
   border: 3px solid white;
+}
+.subHeading {
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(212, 209, 209);
+}
+@media only screen and (max-width: 450px) {
+  .projects {
+    width: 100vw;
+    height: max-content;
+    scroll-snap-align: none;
+  }
+  .projectItem {
+    width: 80%;
+  }
 }

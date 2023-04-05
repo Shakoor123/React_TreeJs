@@ -10,20 +10,36 @@ const Service = () => {
     <div className="service">
       <div className="serviceLeft">
         <ul className="serviceLists">
-          <li className="servicelistItem">Web Disigning</li>
           <li
             className="servicelistItem"
-            onClick={setCurrent("Web Development")}
+            onClick={(e) => {
+              setCurrent("Web Disigning");
+            }}
+          >
+            Web Disigning
+          </li>
+          <li
+            className="servicelistItem"
+            onClick={(e) => {
+              setCurrent("Web Development");
+            }}
           >
             Web Development
           </li>
           <li
             className="servicelistItem"
-            onClick={setCurrent("Product Design")}
+            onClick={(e) => {
+              setCurrent("Product Design");
+            }}
           >
             Product Design
           </li>
-          <li className="servicelistItem" onClick={setCurrent("Social Media")}>
+          <li
+            className="servicelistItem"
+            onClick={(e) => {
+              setCurrent("Social Media");
+            }}
+          >
             Social Media
           </li>
         </ul>

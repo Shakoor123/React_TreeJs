@@ -9,6 +9,7 @@ import five from "../assets/chatApp.png";
 const Projects = () => {
   return (
     <div className="projects">
+      <h2 className="subHeading">Projects</h2>
       <div className="projectBody">
         <div className="projectItem">
           <img className="projectItemImage" src={one} alt="" />

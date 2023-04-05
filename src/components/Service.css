@@ -34,3 +34,13 @@
 .servicelistItem:hover {
   color: aqua;
 }
+@media only screen and (max-width: 450px) {
+  .service {
+    width: 100vw;
+    flex-direction: column;
+    height: auto;
+  }
+  .servicelistItem {
+    font-size: 30px;
+  }
+}

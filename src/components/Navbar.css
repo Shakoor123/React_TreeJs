@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   height: 70px;
-  padding: 10px 20px;
+  padding: 10px 0;
   width: 1200px;
   scroll-snap-align: center;
 }
@@ -32,9 +32,19 @@
   cursor: pointer;
   border: 1px solid white;
   cursor: pointer;
+  margin: 0 20px;
 }
 .logo {
   width: 150px;
   border: 1px solid rgb(20, 105, 105);
   border-radius: 5px;
+  margin-left: 20px;
+}
+@media only screen and (max-width: 450px) {
+  .navbar {
+    width: 100%;
+  }
+  .lists {
+    display: none;
+  }
 }

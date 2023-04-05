@@ -32,6 +32,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="contactLeft">
+        <h2 className="subHeading">Contact Us</h2>
         <form
           ref={ref}
           action=""
